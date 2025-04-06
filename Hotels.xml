@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="Hotels.xsd">
-	<Hotel Id="h1">
+	<Hotel Id="h1" Rating="4.2">
 		<Name>Westin</Name>
 		<Phone>800-937-8461</Phone>
 		<Phone>480-968-8885</Phone>
@@ -12,7 +12,6 @@
 			<State>AZ</State>
 			<Zip>85281</Zip>
 		</Address>
-		<Rating>4.2</Rating>
 	</Hotel>
 	<Hotel Id="h2">
 		<Name>Hilton Phoenix Airport</Name>
@@ -24,20 +23,18 @@
 			<State>AZ</State>
 			<Zip>85034</Zip>
 		</Address>
-		<Rating>4.1</Rating>
 	</Hotel>
-	<Hotel Id="h3">
+	<Hotel Id="h3" Rating="4.3">
 		<Name>Sheraton Grand Phoenix</Name>
 		<Phone>602-262-2500</Phone>
 		<Phone>888-627-7060</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor">
 			<Number>340</Number>
 			<Street>N 3rd St</Street>
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85004</Zip>
 		</Address>
-		<Rating>4.3</Rating>
 	</Hotel>
 	<Hotel Id="h4">
 		<Name>Hyatt Regency Phoenix</Name>
@@ -49,19 +46,17 @@
 			<State>AZ</State>
 			<Zip>85004</Zip>
 		</Address>
-		<Rating>4.0</Rating>
 	</Hotel>
-	<Hotel Id="h5">
+	<Hotel Id="h5" Rating="4.4">
 		<Name>Renaissance Phoenix Downtown</Name>
 		<Phone>602-333-0000</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor">
 			<Number>100</Number>
 			<Street>N 1st St</Street>
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85004</Zip>
 		</Address>
-		<Rating>4.4</Rating>
 	</Hotel>
 	<Hotel Id="h6">
 		<Name>Found:Re Phoenix</Name>
@@ -73,20 +68,18 @@
 			<State>AZ</State>
 			<Zip>85004</Zip>
 		</Address>
-		<Rating>4.2</Rating>
 	</Hotel>
-	<Hotel Id="h7">
+	<Hotel Id="h7" Rating="4.5">
 		<Name>Hotel Valley Ho</Name>
 		<Phone>480-248-2000</Phone>
 		<Phone>866-882-4484</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor">
 			<Number>6850</Number>
 			<Street>E Main St</Street>
 			<City>Scottsdale</City>
 			<State>AZ</State>
 			<Zip>85251</Zip>
 		</Address>
-		<Rating>4.5</Rating>
 	</Hotel>
 	<Hotel Id="h8">
 		<Name>The Camby Hotel</Name>
@@ -98,20 +91,18 @@
 			<State>AZ</State>
 			<Zip>85016</Zip>
 		</Address>
-		<Rating>4.3</Rating>
 	</Hotel>
-	<Hotel Id="h9">
+	<Hotel Id="h9" Rating="4.6">
 		<Name>JW Marriott Phoenix Desert Ridge</Name>
 		<Phone>480-293-5000</Phone>
 		<Phone>800-228-9290</Phone>
-		<Address>
+		<Address NearestAirport="Phoenix Sky Harbor">
 			<Number>5350</Number>
 			<Street>E Marriott Dr</Street>
 			<City>Phoenix</City>
 			<State>AZ</State>
 			<Zip>85054</Zip>
 		</Address>
-		<Rating>4.6</Rating>
 	</Hotel>
 	<Hotel Id="h10">
 		<Name>Arizona Biltmore</Name>
@@ -123,6 +114,5 @@
 			<State>AZ</State>
 			<Zip>85016</Zip>
 		</Address>
-		<Rating>4.4</Rating>
 	</Hotel>
 </Hotels>

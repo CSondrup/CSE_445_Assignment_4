@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+	<Hotel Id="h1">
+		<Name>Westin</Name>
+		<Phone>800-937-8461</Phone>
+		<Phone>480-968-8885</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>11</Number>
+			<Street>E.7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+		<Rating>4.2</Rating>
+	</Hotel>
+	<Hotel Id="h2">
+		<Name>Hilton Phoenix Airport</Name>
+		<Phone>602-273-7777</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>2435</Number>
+			<Street>S 47th St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85034</Zip>
+		</Address>
+		<Rating>4.1</Rating>
+	</Hotel>
+	<Hotel Id="h3">
+		<Name>Sheraton Grand Phoenix</Name>
+		<Phone>602-262-2500</Phone>
+		<Phone>888-627-7060</Phone>
+		<Address>
+			<Number>340</Number>
+			<Street>N 3rd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+		<Rating>4.3</Rating>
+	</Hotel>
+	<Hotel Id="h4">
+		<Name>Hyatt Regency Phoenix</Name>
+		<Phone>602-252-1234</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>122</Number>
+			<Street>N 2nd St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+		<Rating>4.0</Rating>
+	</Hotel>
+	<Hotel Id="h5">
+		<Name>Renaissance Phoenix Downtown</Name>
+		<Phone>602-333-0000</Phone>
+		<Address>
+			<Number>100</Number>
+			<Street>N 1st St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+		<Rating>4.4</Rating>
+	</Hotel>
+	<Hotel Id="h6">
+		<Name>Found:Re Phoenix</Name>
+		<Phone>602-875-8000</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>1100</Number>
+			<Street>N Central Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85004</Zip>
+		</Address>
+		<Rating>4.2</Rating>
+	</Hotel>
+	<Hotel Id="h7">
+		<Name>Hotel Valley Ho</Name>
+		<Phone>480-248-2000</Phone>
+		<Phone>866-882-4484</Phone>
+		<Address>
+			<Number>6850</Number>
+			<Street>E Main St</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85251</Zip>
+		</Address>
+		<Rating>4.5</Rating>
+	</Hotel>
+	<Hotel Id="h8">
+		<Name>The Camby Hotel</Name>
+		<Phone>602-468-0700</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>2401</Number>
+			<Street>E Camelback Rd</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+		</Address>
+		<Rating>4.3</Rating>
+	</Hotel>
+	<Hotel Id="h9">
+		<Name>JW Marriott Phoenix Desert Ridge</Name>
+		<Phone>480-293-5000</Phone>
+		<Phone>800-228-9290</Phone>
+		<Address>
+			<Number>5350</Number>
+			<Street>E Marriott Dr</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85054</Zip>
+		</Address>
+		<Rating>4.6</Rating>
+	</Hotel>
+	<Hotel Id="h10">
+		<Name>Arizona Biltmore</Name>
+		<Phone>602-955-6600</Phone>
+		<Address NearestAirport="Phoenix Sky Harbor">
+			<Number>2400</Number>
+			<Street>E Missouri Ave</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+		</Address>
+		<Rating>4.4</Rating>
+	</Hotel>
+</Hotels>
